@@ -1,0 +1,45 @@
+Krist Kalami
+500568445
+Last Updated: March 18, 2017
+  
+Summarize your lab:
+
+  Part 1:
+     Works  Yes 
+     
+  Part 2:
+     Works  Yes 
+     
+  Part 3:
+     Works  Yes 
+     
+***ANSWERS TO QUESTIONS***
+
+ Question 1:
+     Which hash table collision resolution method did you use
+     (eg. chaining or open addressing)? Explain your choice
+     briefly (less than 25 words).
+	 
+ YOUR ANSWER: Open addressing is used because every key value pairs are stored in the hash table itself and there's no need for external data structure.
+ 
+ Question 2:
+       Which hash function (division or multiplication) did you use?
+       How did you convert a string into a number?
+	   
+ YOUR ANSWER:  I used a division hash function. I manually converted the string into an integer using the respective ASCII characters and their
+			   decimal values. The number that represents that string would then be the sum of all of the ASCII characters of each element of 
+			   the string. 
+ 
+ Question 3:
+       Another legal XML tag not used in this lab is the
+       stand-alone tag.  This kind of tag
+       combines both a start-tag and end-tag in one.
+       It is identified with a '/' (slash) preceding the
+       final >.  (For example, the <foo/>
+       is a stand-alone tag that is self balancing.
+       
+       Describe briefly how
+       you would modify Part 3 to allow this kind of tag.
+       
+ YOUR ANSWER:  In order to modify Part 3 to allow this kind of tag, we would have to create an extra conditional(if) statement to check for the character '/' after the alphabet 
+			   character. If this condition is true then we must have a stand-alone tag. Afterwards, it will be added to the hash table so that it can be printed later. 
